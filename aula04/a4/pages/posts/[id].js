@@ -1,5 +1,5 @@
+import Link from 'next/link'
 import { useRouter } from 'next/router';
-import Link from 'next/link';
 
 export default function Post() {
   const router = useRouter();
@@ -11,7 +11,7 @@ export default function Post() {
       <ul>
         <li>
           <Link href="/">
-            Ir para a home
+            <a>Ir para a home</a>
           </Link>
         </li>
       </ul>

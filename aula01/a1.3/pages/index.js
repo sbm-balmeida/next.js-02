@@ -1,16 +1,16 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 function HomePage() {
-  return (
+  return(
     <div>
       Welcome to Next.js!
 
-      <img src="/images/avatar.png" />
+      <img src="/images/avatar.jpeg"/>
 
       <ul>
         <li>
           <Link href="/sobre">
-            <a>Ir para a /sobre</a>
+            Ir para sobre
           </Link>
         </li>
       </ul>
@@ -18,4 +18,4 @@ function HomePage() {
   )
 }
 
-export default HomePage
+export default HomePage;

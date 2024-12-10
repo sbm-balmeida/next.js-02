@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 function SobrePage() {
   return (
     <div>
@@ -7,9 +5,7 @@ function SobrePage() {
 
       <ul>
         <li>
-          <Link href="/">
-            Ir para a home
-          </Link>
+          <a href="/">Ir para a Home</a>
         </li>
       </ul>
     </div>
